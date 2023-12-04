@@ -28,8 +28,6 @@ h1, h2 {
     color: lightblue;
 }
 
-	
-}
 h2 {
     border-bottom: 2px solid #3498db;
     padding-bottom: 5px;
@@ -54,14 +52,14 @@ p {
 }
 
 .skills {
-    background-color:#DEB887;
+    background-color:darksalmon;
     padding: 50px;
     border-radius: 10px;
     margin-bottom: 70px;
 }
 
 .contact {
-    background-color: CadetBlue;
+    background-color:;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -86,9 +84,34 @@ ul {
 }
 
 
-
        
+        .container {
+            display: flex;
+            ;
+			 text-align: right-side;
+    
+        }
+
+        .container > div {
+            flex-grow: 1;
+            text-align: right-side;
+            background-color: IndianRed; 
+        }
+
+        .container img {
+            display: block; 
+            margin: 0 auto; 
+            width: 120px; 
+            height: 150px;
+            background-color:;
+            margin-bottom: 10px;
+           border-radius: 50%;
+           
+        }
+
+        /* Existing styles */
     </style>
+
 </head>
 
 	 
@@ -100,12 +123,13 @@ ul {
 	
 	">
 	 
-	 <div style="background-color:cadetblue;width:550px;height:1000px; size-font: 100000 ;">
-	 
-	 <body>
-<img src="370268652_314336724793105_4391809713944040081_n.jpg" style="width:170x; hieght:75px background-color: blue;">
-   <h1>Personal Details</h1>
-
+	 <div class="container">
+    <div>
+        <!-- Image and Personal Details -->
+        <img src="C:\Users\Student\Documents\final\386884573_275920601683069_6013634777023931263_n.jpg" alt="Profile Image">
+        <h1>Personal Details</h1>
+        <!-- Education Section -->
+    
 
  <section class="section education">
                 <h2>Education</h2>
@@ -149,15 +173,16 @@ ul {
 	 
 	 
 	 </div>
-	  <div style="background-color:darkstategray;width:700px;height:1000000px; size-font: 100000 ;"><section class="section Skills">
+	  <div style="background-color:Darksalmon;width:900px;height:1100px; size-font: 100000 ;"><section class="section Skills">
 	   <header  style="width:650px; height:350px background-color: blue;"">
 	    
-		<h1>Noaim Baulo</h1>
-        
-    </header>
-        
-		<h2>Skills</h2>
-        <ul>
+		<div>
+        <!-- Header and Skills Section -->
+        <header style="background-color:;">
+            <h1>Noaim Baulo</h1>
+        </header>
+        <!-- Skills and Work Experience Section -->
+    <ul>
             <li>HTML, CSS, JavaScript</li>
             <li>Web Development</li>
             <li>Problem Solving</li>
